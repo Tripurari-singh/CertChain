@@ -1,86 +1,139 @@
-CertSecure - Blockchain-based Certificate Verification System
-Welcome to CertSecure!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CertSecure - Blockchain-based Certificate Verification System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-top: 1.5em;
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin-top: 1em;
+    }
+    code, pre {
+      background-color: #eee;
+      padding: 0.5em;
+      border-radius: 5px;
+      display: block;
+      white-space: pre-wrap;
+      margin: 10px 0;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+    strong {
+      color: #000;
+    }
+    em {
+      color: #555;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1><strong>CertSecure - Blockchain-based Certificate Verification System</strong></h1>
 
-My First Project - CertSecure
-This project, CertSecure, is a blockchain-based certificate verification system that I built as part of my journey into web development.
-It combines several modern technologies to deliver a secure, easy-to-use platform for academic certificate issuance and verification.
-As my first project, I aimed to not only learn how blockchain can be applied in real-world scenarios but also to dive deep into full-stack development, incorporating both frontend and backend technologies.
-It’s been a challenging yet incredibly rewarding experience, and I’m excited to share it with you!
+  <p><em>Welcome to CertSecure!</em></p>
 
-What is CertSecure?
-CertSecure is a web-based application that allows educational institutions to issue academic certificates and store them securely on a blockchain.
-This decentralized ledger ensures that once a certificate is issued, it cannot be altered or forged, providing employers and institutions with an easy way to verify the authenticity of certificates.
+  <h2><strong>My First Project - CertSecure</strong></h2>
+  <p>
+    This project, <strong>CertSecure</strong>, is a blockchain-based certificate verification system that I built as part of my journey into web development.
+    It combines several modern technologies to deliver a secure, easy-to-use platform for academic certificate issuance and verification.
+  </p>
+  <p>
+    As my first project, I aimed to not only learn how blockchain can be applied in real-world scenarios but also to dive deep into full-stack development,
+    incorporating both frontend and backend technologies.
+  </p>
+  <p>
+    It’s been a challenging yet incredibly rewarding experience, and I’m excited to share it with you!
+  </p>
 
-Technologies Used
-This project is built using a variety of modern web technologies to ensure it is fast, interactive, and user-friendly.
-Here’s a breakdown of what’s being used:
+  <h2><strong>What is CertSecure?</strong></h2>
+  <p>
+    <strong>CertSecure</strong> is a web-based application that allows educational institutions to issue academic certificates and store them securely on a blockchain.
+    This decentralized ledger ensures that once a certificate is issued, it cannot be altered or forged, providing employers and institutions with an easy way to verify the authenticity of certificates.
+  </p>
 
-1.React
-We’ve used React to build the user interface. React allows us to create a dynamic and responsive app that can update in real-time without needing to reload the page.
-We're utilizing React Hooks (useState, useEffect) to manage the app's state and side effects, making the code clean and efficient.
+  <h2><strong>Technologies Used</strong></h2>
+  <ol>
+    <li><strong>React:</strong> We’ve used React to build the user interface with dynamic and responsive features using Hooks like <code>useState</code> and <code>useEffect</code>.</li>
+    <li><strong>TypeScript:</strong> Used for better type safety and early error detection during development.</li>
+    <li><strong>Tailwind CSS:</strong> Our styling framework with utility classes like <code>bg-gray-900</code>, <code>text-indigo-600</code>, and <code>transition-colors</code>.</li>
+    <li><strong>Lucide React Icons:</strong> Clean and customizable icons to enhance the UI experience.</li>
+    <li><strong>CSS Transitions:</strong> Smooth transitions using <code>transition-colors</code> and <code>duration-200</code>.</li>
+    <li><strong>Backend (Node.js & Express):</strong> Server-side logic, blockchain interaction, and API handling.</li>
+    <li><strong>JavaScript (ES6+):</strong> Modern JavaScript features such as arrow functions, destructuring, and template literals.</li>
+  </ol>
 
-2.TypeScript
-The app is written in TypeScript, a superset of JavaScript that helps ensure better type safety and reduces the risk of bugs by providing static type checking.
-TypeScript makes the development experience smoother by catching potential issues early during development.
+  <h2><strong>Features</strong></h2>
+  <ul>
+    <li><strong>Custom Blockchain:</strong> Built from scratch to store academic certificates securely.</li>
+    <li><strong>Real-Time Certificate Verification:</strong> Instant validation of certificate authenticity.</li>
+    <li><strong>Tamper-Proof:</strong> Certificates are protected with cryptographic hashing.</li>
+    <li><strong>Blockchain Visualizer:</strong> Visual representation of the blockchain structure and linkages.</li>
+    <li><strong>No Central Authority:</strong> Fully decentralized network validation process.</li>
+  </ul>
 
-3.Tailwind CSS
-Tailwind CSS is our styling framework of choice. It’s a utility-first CSS framework that lets us design the application with custom styles quickly and efficiently.
-Tailwind’s classes like bg-gray-900, text-indigo-600, and transition-colors allow us to easily implement a clean, modern design with a smooth dark mode toggle.
+  <h2><strong>How to Get Started</strong></h2>
+  <h3>1. Clone the Repo</h3>
+  <pre><code>git clone https://github.com/Tripurari-singh/CertChain</code></pre>
 
-4.Lucide React Icons
-We’ve used the Lucide React icon library to add clean, scalable, and customizable icons like search, plus circle, and shield icons to our app.
-These icons not only make the app more visually appealing but also improve user navigation by providing easy-to-recognize visual cues.
+  <h3>2. Navigate to the Project Folder</h3>
+  <pre><code>cd certSecure</code></pre>
 
-5.CSS Transitions
-To make the user experience more fluid and visually pleasing, we’ve implemented CSS transitions
-(e.g., smooth color changes between dark and light mode) using Tailwind’s transition-colors and duration-200 utilities.
+  <h3>3. Install Dependencies</h3>
+  <p>Make sure you have Node.js installed (if not, download from <a href="https://nodejs.org" target="_blank">nodejs.org</a>)</p>
+  <pre><code>npm install</code></pre>
 
-6.Backend: Node.js & Express
-On the backend, we’re using Node.js with the Express framework to handle server-side logic and interact with the blockchain.
-This allows us to handle requests for certificate verification, issuance, and storage in an efficient, scalable way.
+  <h3>4. Start the App</h3>
+  <pre><code>npm run dev</code></pre>
+  <p><em>or</em></p>
+  <pre><code>npm start</code></pre>
 
-7.JavaScript (ES6+)
-Modern JavaScript (ES6+) is used throughout the project for features like arrow functions, template literals, and destructuring to keep the code clean and maintainable.
+  <p>Then open <a href="http://localhost:3000">http://localhost:3000</a> in your browser.</p>
 
+  <h2><strong>How It Works</strong></h2>
+  <ul>
+    <li>Submit certificate data using the web interface.</li>
+    <li>Data is recorded immutably on the blockchain.</li>
+    <li>Enter the unique identifier to verify a certificate's authenticity.</li>
+    <li>Visualize the blockchain to understand how certificates are linked.</li>
+  </ul>
 
-Features
-Custom Blockchain: We've built our very own blockchain for academic certificates, making sure the data is secure and unchangeable.
-Real-Time Certificate Verification: You can check if a certificate is legitimate in just a few seconds, no matter where you are.
-Tamper-Proof: The blockchain uses cryptographic hashes to prevent any alteration of certificates, ensuring complete trust.
-Blockchain Visualizer: See the blockchain in action! We have a visual tool that shows all the blocks and how they’re linked.
-No Central Authority: The decentralized nature of blockchain means no one controls the system—everything is validated by the network.
-
-How to Get Started
-Here’s how you can set up CertSecure on your local machine:
-
-Clone the Repo
-Start by cloning this repository to your local system:
-(git clone https://github.com/yourusername/certSecure.git)
-
-Navigate to the Project Folder
-Change to the project directory:
-(cd certSecure)
-
-Install Dependencies
-Make sure you have Node.js installed (if not, grab it from nodejs.org). Then, install the necessary packages:
-(npm install)
-
-Start the App
-Run the application with:
-(npm run dev) or (npm start)
-
-Visit http://localhost:3000 to check it out in your browser.
-
-
-How It Works
-Use the web interface to easily submit certificate data (like student names, degrees, and marks).
-This info gets recorded on the blockchain to make it tamper-proof.
-To verify a certificate, just enter the certificate’s unique idenifier into the verification section. The blockchain will quickly confirm whether it’s authentic.
-If you want to get a deeper understanding of how the certificates are stored and linked, our visualizer will show you the entire blockchain in real time.
-
-Future Improvements
-Here’s what we plan to add as we continue improving CertSecure:
-Implement a secure login system for institutions to manage certificate issuance.
-Use a database like MongoDB to store certificates beyond the in-memory blockchain.
-Generate QR codes for certificates that link directly to their blockchain record for even easier verification.
-Transition to a more distributed and scalable blockchain using platforms like Ethereum or Hyperledger for better performance.
+  <h2><strong>Future Improvements</strong></h2>
+  <ul>
+    <li>Implement secure login for institutions to manage certificate issuance.</li>
+    <li>Integrate <strong>MongoDB</strong> for persistent certificate storage.</li>
+    <li>Generate <strong>QR codes</strong> for certificates linking to blockchain records.</li>
+    <li>Transition to scalable blockchain platforms like <strong>Ethereum</strong> or <strong>Hyperledger</strong>.</li>
+  </ul>
+</body>
+</html>
